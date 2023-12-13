@@ -5,7 +5,7 @@ let inputBox=document.getElementById("input-box");
 
 function addTask(){
     if(inputBox.value===''){
-        alert('add Your ToDo')
+        alert('Add Your To-Do')
     }
     else{
         let task=document.createElement("li");
